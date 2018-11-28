@@ -1,0 +1,9 @@
+.img-container{
+    margin: 24px;
+    background-position: center;
+    background-repeat: no repeat;
+    box-shadow:#555 1px 2px 8 px 1px;
+    min-width: 600px;
+    min-height: 600px;
+    align-content: center;
+}

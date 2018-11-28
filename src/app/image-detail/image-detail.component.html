@@ -1,0 +1,17 @@
+<br>
+<div class="row">
+    <div class="col-md-12">          
+        <img src={{image?.url}} alt="">
+        <h3>{{image?.title}}</h3>           
+        <br>
+          <div class="container">
+            <div>
+              <label for="editTitle">Edit Title:</label>
+              <input type="text" id="editTitle" [(ngModel)]="title" class="form-control" value="{{image.title}}">
+            </div>        
+           <br>
+           <button type="submit" class="btn btn-success" (click)="saveImageTitle()" >Потврди</button>
+          </div>
+    </div>
+</div>
+ 

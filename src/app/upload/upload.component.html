@@ -1,0 +1,16 @@
+
+<div class="container">
+  <div>
+    <input type="file" (change)="fileInput($event.target.files[0])">   
+    <br>   
+    <br>   
+    <img [src]="imageUrl" style="width:250px; height:200px"> 
+  </div> 
+    <br>
+  <div>
+    <input type="text" (change)="titleInput($event)" class="form-control">
+    <label for="Title">Enter title fot image</label>
+  </div>
+  <br>
+<button type="submit" class="btn btn-primary" (click)="uploadFileAndInput()">Add image</button>
+</div>
