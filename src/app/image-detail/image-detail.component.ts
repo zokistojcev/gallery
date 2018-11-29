@@ -12,6 +12,7 @@ export class ImageDetailComponent implements OnInit {
    show: boolean = true;
    image: GalleryImage = {};
    title: string;
+   xcv: string;
 
   constructor(
     private imageService: ImageService,
